@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joans-Kitchen-Essentials</title>
+</head>
+<body>
+
+<header>
+ <h1>Joan's Kitchen Essentials</h1>
+    <p>At Joan's Kitchen Essentials, we've got you covered!</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#product">Contact Us</a>
+</nav>
+
+<main id="home">
+    <section class="welcome">
+    <h2>Welcome to our store!</h2>
+    <p>Discover our smokeless charcoal stoves for convenient, fuel-efficient cooking.</p>
+    </section>
+
+<section id="products">
+    <h2>Our Charcoal Stoves</h2>
+
+<div class="product">
+    <img src="images/economy%20size.jpg" alt="Small Size Stove" class="product-image">
+    <h3>Economy size</h3>
+<p>Price: #30,000</p>
+<button onclick="addToCart('Economy Size', 30000)">Add to Cart</button>
+</div>
+<div class="product">
+    <img src="images/medium%20size.jpg" alt="Medium Size Stove" class="product-image">
+    <h3>Medium Size Stove</h3>
+    <p>Price: #37,500</p>
+    <button onclick="addToCart('Medium Size Stove', 37500)">Add to Cart</button>
+</div>
+
+<div class="product">
+    <img src="images/family%20size.jpg" alt="Family Size Stove" class="product-image">
+    <h3>Family Size Stove</h3>
+    <p>Price: #40,000</p>
+    <button onclick="addToCart('Family Size Stove', 40000)">Add to Cart
+    </button>
+
+</div>
+</section>
+<section id="cart">
+    <h2>My Shopping Cart</h2>
+    <p>Items added: <span id="cart-count">0</span></p>
+    <p>Total: #<span id="cart-total">0</span></p>
+    </section>
+
+    <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Thank you for shopping with Joan's Kitchen Essentials!</p>
+    <p>Email: gbogbarajoan@gmail.com</p>
+    <p>Phone: +2348036433860</p>
+    </section>
+
+</main>
+<footer>
+    <p>&copy; 2026 Joan's Kitchen Essentials. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

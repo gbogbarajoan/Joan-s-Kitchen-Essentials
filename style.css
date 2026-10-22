@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightyellow;
+    color: #333;
+}
+
+header {
+    background-color: #244b36;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #d97736;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+      color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    .welcome {
+        text-align: center;
+        padding: 30px 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    #products h2,
+    #cart h2,
+    #contact h2 {
+        color: #244b36;
+    }
+
+    .product {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+        min-width: 200px;
+        margin: 1%;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .product button {
+        background-color: #244b36;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .product button:hover {
+        background-color: #d97736;
+    }
+
+    #cart {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    footer {
+        background-color: #244b36;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+        nav a {
+            display: inline-block;
+            margin: 5px 8px;
+        }
+
+    .product {
+        display: inline-block;
+        vertical-align: top;
+        width: 28%;
+        min-width: 220px;
+        padding: 15px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
+    }
+
+    .product-image {
+        width: 100%;
+        height: 100px;
+        object-fit: contain;
+        display: block;
+        margin-bottom: 8px;
+}
+
+.product h3 {
+    margin: 8px 0;
+}
+
+.product p {
+    margin: 8px 0 12px;
+}
+
+.product button {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
